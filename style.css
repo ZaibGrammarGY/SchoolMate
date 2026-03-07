@@ -1,0 +1,442 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;   
+    color: black;             
+}
+
+
+header {
+    background: linear-gradient(90deg, royalblue, slateblue); 
+    padding: 15px 50px;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: burlywood;   
+    padding: 5px;
+    border: 3px solid white;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    border-bottom: 2px solid burlywood; 
+}
+
+
+.hero {
+    background: url("school.jpg") center/cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 38px;
+    background: rgba(0,0,0,0.6);
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+
+section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    background: burlywood;  
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: royalblue;  
+}
+
+
+.image-row {
+    display: flex;
+    gap: 15px;
+}
+
+.image-row img {
+    width: 32%;
+    border-radius: 10px;
+    border: 3px solid slateblue; 
+}
+
+
+.founder {
+    text-align: center;
+}
+
+.founder img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 5px solid royalblue;  
+    object-fit: cover;
+}
+
+.teacher-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.teacher-card {
+    background: beige;  
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid royalblue; 
+}
+
+.teacher-card h3 {
+    margin: 0;
+    color: slateblue;   
+}
+
+
+form {
+    max-width: 500px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 2px solid slateblue;  
+    background-color: beige;     
+    color: black;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: royalblue;
+}
+
+
+button {
+    background: royalblue;   
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: slateblue;
+}
+
+
+footer {
+    background:linear-gradient(90deg, royalblue, slateblue);   
+    color: burlywood;   
+    text-align: center;
+    padding: 15px;
+}
+
+
+.form-section {
+    background: beige;
+    box-shadow: none;
+}
+
+.print-form {
+    background: white;
+    padding: 30px;
+    max-width: 950px;
+    margin: auto;
+    border: 3px solid slateblue;
+}
+
+
+.school-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.school-text {
+    text-align: center;
+    flex: 1;
+}
+
+.school-text h2 {
+    margin: 0;
+    color: royalblue;
+}
+
+.photo-box {
+    width: 120px;
+    height: 120px;
+    border: 2px solid slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.admission-title {
+    background: royalblue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.print-form form {
+    max-width: 100%;
+}
+
+
+.box-row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.box-row input {
+    width: 28px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 0;
+    background: white;
+}
+
+
+.line-field {
+    margin-bottom: 18px;
+}
+
+.line-field label {
+    font-weight: bold;
+}
+
+.line-field input,
+.line-field select {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    padding: 6px 4px;
+    border-radius: 0;
+}
+
+
+.submit-btn {
+    background: royalblue;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: slateblue;
+}
+
+
+.office-ribbon {
+    background: royalblue;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.office-section {
+    margin-top: 15px;
+}
+.form-section {
+    background: beige !important;
+    box-shadow: none !important;
+    padding: 40px 0 !important;
+}
+
+.form-section .print-form {
+    background: #fff;
+    max-width: 950px;
+    margin: auto;
+    padding: 25px 35px;
+    border: 2px solid #2f3fa5;
+    box-shadow: none;
+}
+
+.school-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.school-logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+
+.school-text {
+    text-align: center;
+    flex: 1;
+}
+
+.school-text h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+    color: #2f3fa5;
+    letter-spacing: 1px;
+}
+
+.school-text p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+
+.photo-box {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #2f3fa5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+}
+
+
+.admission-title {
+    background: #2f3fa5;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+    letter-spacing: 1px;
+}
+
+
+.print-form input,
+.print-form select {
+    width: auto !important;
+    padding: 4px !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    background: white !important;
+}
+
+
+.box-row {
+    display: flex;
+    gap: 3px;
+    margin: 8px 0 18px 0;
+}
+
+.box-row input {
+    width: 24px !important;
+    height: 28px !important;
+    border: 1px solid #2f3fa5;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.line-field {
+    margin: 14px 0;
+}
+
+.line-field label {
+    font-weight: 600;
+}
+
+.line-field input,
+.line-field select {
+    width: 100% !important;
+    border: none !important;
+    border-bottom: 1px solid #2f3fa5 !important;
+}
+
+
+.office-ribbon {
+    margin-top: 25px;
+    background: #2f3fa5;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.office-section p {
+    margin: 15px 0;
+}
+
+
+.button-area {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.submit-btn,
+.excel-btn {
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.submit-btn {
+    background: #2f3fa5;
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #1f2f8a;
+}
+
+.excel-btn {
+    background: #d9a441;
+    color: black;
+}
+
+.excel-btn:hover {
+    background: #c8932f;
+}

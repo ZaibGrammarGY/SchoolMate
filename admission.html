@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admissions - Zaib Grammar School</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="header-container">
+<img src="c:\Users\sukku\Desktop\logo final.jpeg" class="logo">
+<h1>ZAIB GRAMMAR SCHOOL</h1>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="teachers.html">Teachers</a>
+<a href="admission.html">Admission</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="form-section">
+
+<div class="print-form">
+
+<div class="school-top">
+
+<div class="left-logo">
+<img src="c:\Users\sukku\Desktop\logo final.jpeg" class="logo">
+</div>
+
+<div class="school-text">
+<h2>ZAIB GRAMMAR SCHOOL</h2>
+<p>Soomra Mohalla, Garhi Yasin Distt. Shikarpur Sindh</p>
+<p>Mobile: 0301-2118868</p>
+</div>
+
+<div class="photo-box">
+2-PHOTOGRAPHS
+</div>
+
+</div>
+
+<div class="admission-title">ADMISSION FORM</div>
+
+<form id="admissionForm">
+
+<p><b>Name of Student:</b></p>
+<div class="box-row">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+</div>
+
+<p><b>Father's Name:</b></p>
+<div class="box-row">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+<input type="text" maxlength="1">
+</div>
+ 
+<div class="line-field">
+<label>Surname:</label>
+<input type="text" id="Surname">
+</div>
+
+<div class="line-field">
+<label>Guardian's Name:</label>
+<input type="text" id="Guardian">
+</div>
+
+<div class="line-field">
+<label>Religion:</label>
+<input type="text" id="religion">
+</div>
+
+<div class="line-field">
+<label>Nationality:</label>
+<input type="text" id="Nationality">
+</div>
+
+<div class="line-field">
+<label>Date of Birth:</label>
+<input type="date" id="dob">
+</div>
+
+<div class="line-field">
+<label>Complete Address:</label>
+<input type="text" id="address">
+</div>
+
+<div class="line-field">
+<label>Mobile:</label>
+<input type="tel" id="Mobile">
+</div>
+
+<div class="line-field">
+<label>Class in which admission is sought:</label>
+<select id="class">
+<option>Nursery</option>
+<option>KG</option>
+<option>Class 1</option>
+<option>Class 2</option>
+<option>Class 3</option>
+<option>Class 4</option>
+<option>Class 5</option>
+<option>Class 6</option>
+<option>Class 7</option>
+<option>Class 8</option>
+</select>
+</div>
+
+<div class="line-field">
+<label>Previous School Attendend (If any):</label>
+<input type="text" id="PSA">
+</div>
+
+<p> <b>I do hereby Afffirm and Believe that the statement given above is correct and that i shall abid by the rules and regulation of the school which will be inforced from time to time</b></p>
+ <p><b>NOTE:</b>1.All details should be accurately recorded in CAPITAL LETTERS only <br>
+2.Once the entry has been made in the General Register it cannot be changed, without the permission of the Executive District Officer. <br>    
+3.Previous school leave certificate and birth certificate to be produced along with the admission form. <br>
+4.A set of 2(two) photographs are required. <br>
+5.Change of address, if any, should be notified to the school immediately.</p> 
+<p><b>Documents Attached:</b> <br>1.copy of father's I.D Card. <br>
+2.Birth certificate or B-Form <br> 3.T.C.</p>
+ 
+<div class="button-area">
+    <button type="submit" class="submit-btn">Submit</button>
+    <button type="button" onclick="exportToExcel()" class="excel-btn">Download Excel</button>
+</div>
+
+</form>
+
+<div class="office-ribbon">FOR OFFICE USE ONLY</div>
+
+<div class="office-section">
+<p>Tested ____________________________and found fit for class_____________________________ </p>
+<p>I have checked the above doucuments in original and recommend the case for admisson.</p>
+<p>Admission Incharge ____________________________</p>
+<p>Date ____________________________</p>
+</div>
+
+</div>
+
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="1.js"></script>
+
+</body>
+</html>
