@@ -440,59 +440,55 @@ footer {
 .excel-btn:hover {
     background: #c8932f;
 }
+/* FORM MOBILE FIX */
 
-@media (max-width: 768px) {
+@media (max-width:768px){
 
-header{
-padding:15px 20px;
-}
-
-.header-container{
-flex-direction:column;
-text-align:center;
-}
-
-nav{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:10px;
-}
-
-.hero{
-height:250px;
-}
-
-.hero h2{
-font-size:24px;
-padding:10px 15px;
-}
-
-section{
-margin:30px 10px;
+.print-form{
 padding:20px;
-}
-
-.image-row{
-flex-direction:column;
-}
-
-.image-row img{
-width:100%;
-}
-
-.teacher-grid{
-grid-template-columns:1fr;
+width:95%;
 }
 
 .school-top{
 flex-direction:column;
-gap:15px;
 text-align:center;
+gap:10px;
+}
+
+.school-logo{
+width:80px;
+height:80px;
 }
 
 .photo-box{
+width:90px;
+height:90px;
+font-size:10px;
 transform:none;
+margin:auto;
+}
+
+.school-text h2{
+font-size:22px;
+}
+
+.school-text p{
+font-size:12px;
+}
+
+.box-row{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.box-row input{
+width:22px !important;
+height:26px !important;
+}
+
+.line-field input,
+.line-field select{
+font-size:14px;
 }
 
 .button-area{
